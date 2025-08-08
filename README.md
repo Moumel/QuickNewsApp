@@ -1,16 +1,21 @@
-# news
+# Quick News App
 
-A new Flutter project.
+A Flutter news app that fetches top headlines from NewsAPI.org.  
+Built with clean architecture, BLoC state management, and supports light/dark themes.
+
+## Features
+
+- Fetches latest news by category using NewsAPI  
+- Uses BLoC for state management  
+- Responsive UI with light and dark modes  
+- Animated splash and smooth navigation  
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. Create a .env file in the root directory and add your NewsAPI key:
+   NEWSAPI_KEY=your_api_key_here
+2. Install dependencies:
+   flutter pub get
+3. flutter run
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Made with ❤️ by Moumel
